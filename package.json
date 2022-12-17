@@ -1,0 +1,24 @@
+{
+  "name": "api_fetch_practice_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TOTALLY-JOHN/api_fetch_practice_project.git"
+  },
+  "keywords": [],
+  "author": "JIHWAN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TOTALLY-JOHN/api_fetch_practice_project/issues"
+  },
+  "homepage": "https://github.com/TOTALLY-JOHN/api_fetch_practice_project#readme",
+  "dependencies": {
+    "npm": "^9.2.0"
+  },
+  "type": "module"
+}
