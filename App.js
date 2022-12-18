@@ -1,4 +1,5 @@
 import { init } from './router.js';
+import Post from './Post.js';
 
 export default function App({ target }) {
     this.route = () => {
@@ -6,21 +7,8 @@ export default function App({ target }) {
 
         target.innerHTML = '';
 
-
-        if (pathname === '/web/') {
-            new ProductListPage({ target }).render();
-        } else if (pathname.indexOf('/products/') > -1) {
-            const [, , productId] = pathname.split('/');
-            new ProductDetailPage({
-                target,
-                productId
-            }).render();
-        } else if (pathname.indexOf("/cart") > -1) {
-            new CartPage({
-                target
-            }).render();
-        } else if (pathname.indexOf('/productList') > -1) {
-            new ProductListPage({ target }).render();
+        if (pathname === '/') {
+            new Post({ target }).render();
         }
     }
 
